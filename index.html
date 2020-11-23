@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <style>
+        * {
+            box-sizing:border-box;
+        }
+        .display {
+            width:446px;
+            height:250px;
+            border:1px solid cornflowerblue;
+            overflow:auto;
+        }
+        .mobile {
+            display:inline-block;
+            width:450px;
+            height:450px;
+            border:2px solid darkred;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <input type="text" id="new-mobile-name" placeholder="New mobile Name ... " onclick="">
+    <button onclick="newMobile(document.getElementById('new-mobile-name').value)">Creat</button>
+</div>
+<!--demo a mobile-->
+<div id="mobiles">
+
+</div>
+
+<!--javascript-->
+<script src="main.js"></script>
+<script src="Mobile.js"></script>
+</body>
+</html>
